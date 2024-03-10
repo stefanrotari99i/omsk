@@ -1,4 +1,4 @@
-import { bague } from "@/app/layout";
+import { bague } from "@/app/fonts";
 import HeroSide from "@/components/hero-side";
 import Image from "next/image";
 import { CgScrollV } from "react-icons/cg";

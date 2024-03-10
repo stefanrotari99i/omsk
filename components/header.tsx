@@ -1,4 +1,4 @@
-import { bague } from "@/app/layout";
+import { bague } from "@/app/fonts";
 import Link from "next/link";
 
 const Header = () => {

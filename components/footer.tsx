@@ -1,6 +1,6 @@
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 
-import { bague } from "@/app/layout";
+import { bague } from "@/app/fonts";
 import Link from "next/link";
 
 const Footer = () => {
