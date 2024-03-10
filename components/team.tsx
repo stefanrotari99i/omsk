@@ -9,24 +9,9 @@ const Team = () => {
         sich auf die Herstellung von Edelstahlprodukten spezialisiert haben.
       </p>
       <div className="grid grid-cols-1 w-full justify-items-center sm:grid-cols-2 md:grid-cols-3 gap-10 mt-20 max-w-screen-lg mx-auto">
-        <TeamItem
-          name="Michel Smith
-
-"
-          position="CEO"
-        />
-        <TeamItem
-          name="Pavel Marker
-
-"
-          position="CEO"
-        />
-        <TeamItem
-          name="Ilja Obert
-
-"
-          position="CEO"
-        />
+        <TeamItem name="Michel Smith" position="CEO" src="/team1.webp" />
+        <TeamItem name="Pavel Marker" position="CEO" src="/team2.webp" />
+        <TeamItem name="Ilja Obert" position="CEO" src="/team3.webp" />
       </div>
     </div>
   );
@@ -35,15 +20,17 @@ const Team = () => {
 const TeamItem = ({
   name = "John Doe",
   position = "CEO",
+  src = "/hero.webp",
 }: {
   name?: string;
   position?: string;
+  src?: string;
 }) => {
   return (
     <div className="flex flex-col w-[260px] items-center justify-center">
       <div className="w-full aspect-square relative">
         <Image
-          src="/hero.webp"
+          src={src}
           fill
           className="object-cover w-full h-full rounded-full grayscale"
           alt="hero"

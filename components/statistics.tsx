@@ -1,10 +1,10 @@
 const Statistics = () => {
   return (
     <div className="max-w-screen-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 place-content-center my-40 p-2">
-      <StatisticItem title="Projects" value={32} />
-      <StatisticItem title="Clients" value={12} />
-      <StatisticItem title="Awards" value={5} />
-      <StatisticItem title="Years" value={10} />
+      <StatisticItem title="PROJEKTE" value={32} />
+      <StatisticItem title="KUNDEN" value={12} />
+      <StatisticItem title="Auszeichnungen" value={5} />
+      <StatisticItem title="Jahre" value={10} />
     </div>
   );
 };
