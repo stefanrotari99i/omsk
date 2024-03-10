@@ -5,7 +5,7 @@ import { CgScrollV } from "react-icons/cg";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-[calc(100dvh-80px)] flex items-start ">
+    <div className="w-screen h-[calc(100vh-80px)] flex items-start ">
       <HeroSide />
       <div className="flex-1 w-full h-full relative">
         <Image
